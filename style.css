@@ -1,0 +1,64 @@
+    /* font-shared */
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}    
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+        /* header-styles */
+
+.navigation-banner-container{
+    background-image: url('Assets/Hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-logo{
+    font-size: 40px;
+    font-weight: 900;
+    color: #4E47FF;
+    cursor: pointer;
+}
+.nav-signup{
+    margin-top: 20px;
+    padding: 12px 30px;
+}
+.nav-signup button{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.banner{
+    text-align: center;
+}
+.about-banner{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.btn{
+   background-color: #4E47FF;
+   font-size: 16px;
+   font-weight: bold;
+   color: #FFFFFF;
+   padding: 12px 35px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+        /* Action Section style */
