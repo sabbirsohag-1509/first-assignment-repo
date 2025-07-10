@@ -11,6 +11,10 @@
   font-style: normal;
 }
 
+/* main{
+    width: 1080px;
+} */
+
         /* header-styles */
 
 .navigation-banner-container{
@@ -62,3 +66,33 @@
 }
 
         /* Action Section style */
+.action{
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    align-items: center;
+}
+.action-content-title{
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+}
+.action-content-description{
+    font-size: 24px;
+    color: #252432a5;
+    font-weight: 500;
+}
+.action-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.action-image img{
+    width: 350px;
+    height: 255px;
+    border-radius: 45px;
+    margin-top: 60px;
+}
