@@ -11,9 +11,7 @@
   font-style: normal;
 }
 
-/* main{
-    width: 1080px;
-} */
+
 
         /* header-styles */
 
@@ -95,4 +93,11 @@
     height: 255px;
     border-radius: 45px;
     margin-top: 60px;
+}
+        /* productive-user styles */
+.productive-user{
+    width: 1080px;
+    margin: 0 auto;
+}        
+.productive-user img{
 }
