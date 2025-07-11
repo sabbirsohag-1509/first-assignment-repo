@@ -1,5 +1,5 @@
-    /* font-shared */
-
+         
+         /* font-style-shared */
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -10,7 +10,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+main{
+    background-color: #F5F8FF;
+}
 
 
         /* header-styles */
@@ -139,6 +141,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }        
 
 .form-input-area{
@@ -168,6 +171,7 @@
     padding: 12px 36px;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 8px;
 }
 .form-title h1{
     font-size: 97px;
@@ -204,4 +208,41 @@
     padding: 12px 36px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+            /* footer styles */
+
+.footer-content{
+    text-align: center;
+}            
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin: 0;
+}
+.footer-description{
+    font-size: 22px;
+    color: #252432a5;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.footer-nav li a{
+    text-decoration: none;
+}
+.footer-nav li{
+    list-style: none;
+    font-size: 22px;
+    color: #252432a5;
+    font-weight: 500;
+}
+.footer-nav li a:hover{
+    color: #000000;
 }
