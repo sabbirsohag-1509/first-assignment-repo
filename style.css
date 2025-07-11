@@ -246,3 +246,21 @@ main{
 .footer-nav li a:hover{
     color: #000000;
 }
+
+                /* button hover effect */
+
+.form-btn:hover{
+    background-color: #273c75;
+} 
+.btn:hover{
+    background-color: #273c75;
+}
+.action-btn:hover{
+    background-color: #273c75;
+}
+.webflow-btn:hover{
+    background-color: #273c75;
+}
+.nav-signup button:hover{
+    background-color: #273c75;
+}
