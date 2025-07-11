@@ -174,3 +174,34 @@
     font-weight: bold;
     color: #000000;
 }
+
+                        /* webflow-container style  */
+.webflow-container{
+    width: 1080px;
+    margin: 50px auto;
+    text-align: center;
+}
+.webflow-container img{
+    margin-top: 30px;
+    border-radius: 40px;
+}
+.webflow-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+.webflow-sub-title{
+    font-size: 22px;
+    color: #252432a5;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+.webflow-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    cursor: pointer;
+}
